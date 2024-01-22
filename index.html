@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Victor</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">João Victor</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiências</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Joao Victor</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiências</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/me.jfif" style="border-radius: 150px;" alt="Joao Victor Foto" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Ola, Eu sou</p>
+        <h1 class="title">João Victor</h1>
+        <p class="section__text__p2"><span class="multiText"></span></p>
+        <div class="btn-container">
+          <a
+            class="btn btn-color-2"
+            href="assets/JOAO2024.pdf"
+          >
+            Download CV
+        </a>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.svg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/amorimfcll/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/devfcll'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Conheça mais</p>
+      <h1 class="title">Sobre mim</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiências</h3>
+              <p>2+ anos <br />Desenvolvedor Backend</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educação</h3>
+              <p>Análise e Desenvolvimento de Sistemas.<br />UNICSUL</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Olá, pessoal! Me chamo João Victor e sou um dev back-end júnior apaixonado por código e pronto para encarar qualquer desafio!<br>
+              Com experiência em C#, Asp.net MVC, REST API, SQL Server e muito mais, sou um verdadeiro aprendiz em desenvolvimento Front-End e Back-End.<br>
+              Além disso, tenho formação técnica em Programação de Jogos Digitais pelo Centro Paula Souza, onde exercitei minha criatividade e habilidades de resolução de problemas.
+              Se você está em busca de um desenvolvedor versátil e entusiasmado, vamos trabalhar juntos para criar soluções incríveis!"<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <h1 class="title">Experiências</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desenvolvimento Backend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/csharp.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/py.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Básico</p>
+                </div>
+              </article> 
+              <article>
+                <img
+                  src="./assets/linux.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desenvolvimento Frontend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experiente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experiente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/angular.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/brasilapi-logo.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">API da BrasilAPI</h2>
+            <p>Consumo de API em .NET </p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/devfcll/brasilApi'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/blockchain.jpeg"
+                alt="blockchain"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">BlockChain em Python</h2>
+            <p>Projeto inicial de uma blockchain feita em python</p>
+            <br>
+            <div class="btn-container">
+              <a
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/devfcll/blockchain-py'"
+                target="_blank"
+              >
+                Github
+            </a>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/chat.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Chat em Tempo Real</h2>
+            <p>Um pequeno chat em tempo real usando SignalR, Vue.js e .NET</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/devfcll/ChatTempoReal'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Entrar em contato</p>
+      <h1 class="title">Contate Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:joaoffacciola@gmail.com">joaoffacciola@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/amorimfcll/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiências</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 João Victor. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Desenvolvedor Back-End", "Criador de Conteúdo", "Gamer"],
+            loop : true,
+            typeSpeed : 120,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+  </body>
+</html>
